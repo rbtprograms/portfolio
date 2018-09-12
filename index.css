@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0
+}
+
+body {
+  height: 100vh;
+  max-height: 100vh;
+  display:grid;
+  color: rgb(24, 24, 24);
+  background-color: rgb(243, 243, 243);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "title title viewport viewport"
+                        "title title viewport viewport"
+                        "title title viewport viewport"
+}
+
+a {
+  text-decoration: none;
+}
+
+
+header {
+  grid-area: title;
+  font-family: 'VT323', monospace;
+  font-weight: normal;
+  display: inline-block;
+  margin: 0px;
+  position: relative;
+  /* border-right: 3px solid; */
+  border-color: rgb(24, 24, 24)
+}
+
+.header-title {
+  font-size: 18em;
+}
+
+.subhead {
+  font-size: 4em;
+}
+
+.viewport {
+  grid-area: viewport;
+}
+
+.viewport-header {
+  color: black;
+  display: flex;
+  font-family: 'VT323', monospace;
+  font-size: 1.75em;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.viewport-header > h2:hover {
+  /* background-color:rgb(24, 24, 24);
+  color: rgb(243, 243, 243); */
+  text-decoration: line-through;
+  cursor: pointer;
+}
+
+.viewport-content {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+#content {
+  font-family: 'Courier New', monospace;
+  padding: 60px 30px 30px 60px;
+}

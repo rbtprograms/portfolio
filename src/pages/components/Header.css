@@ -1,0 +1,16 @@
+:local(.header) {
+  display: inline-block;
+  font-family: 'VT323', monospace;
+  font-weight: normal;
+  grid-area: title;
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.header-title {
+  font-size: 18em;
+}
+
+.subhead {
+  font-size: 4em;
+}

@@ -1,0 +1,8 @@
+:local(.viewport_header) {
+  display: flex;
+  font-family: 'VT323', monospace;
+  font-size: 1.75em;
+  justify-content: space-between;
+  margin: 10px;
+
+};

@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+
+* {
+  margin: 0;
+  padding: 0
+}
+
+a {
+  text-decoration: none;
+  color: rgb(24, 24, 24);
+  transition: text-decoration 5s;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: line-through;
+}
+a:active {
+  cursor: pointer;
+  text-decoration: line-through;
+}
+
+#root {
+  height: 100vh;
+  max-height: 100vh;
+  display:grid;
+  color: rgb(24, 24, 24);
+  background-color: rgb(243, 243, 243);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "title title viewport viewport"
+                        "title title viewport viewport"
+                        "title title viewport viewport"
+}
+

@@ -1,7 +1,4 @@
 :local(.viewport_content) {
-  align-items: center;
-  display: flex;
-  justify-content: center;
   margin: 20px;
   font-family: 'Courier New', monospace;
   padding: 60px 30px 30px 60px;

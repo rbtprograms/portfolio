@@ -1,3 +1,8 @@
 import React from 'react';
 
-export default () => <p>I am Robert but everyone calls me Bobby</p>
+export default () => {
+  console.log('about')
+  return(
+    <p>Its me bobby</p>
+  )
+}

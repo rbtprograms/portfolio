@@ -22,6 +22,7 @@ class ViewportContent extends Component {
         <Route exact path="/projects" component={() => <Projects projects={data.allContentfulProject.edges}/>}/>
         <Route exact path="/about" component={About}/>
         <Route exact path="/contact" component={Contact}/>
+        {/* <Route exact path="/projects/:id" component={ProjectDetail}/> */}
       </Switch>
       <p id="content"></p>
     </div>
